@@ -1,0 +1,191 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+body{
+  background: linear-gradient(rgb(112, 112, 224) 30%,rgb(237, 132, 237));
+  background-repeat:no-repeat;
+  color: white;
+  height:680px;
+}
+.image-fluid{
+  margin-left:15px;
+}
+header{
+  position: relative;
+  bottom:35px;
+  left:10px;
+}
+#p{
+  text-align:justify;
+}
+.nav-link{
+  padding:10px;
+  color: white;
+}
+.nav-item{
+  color: white;
+  font-weight: 600;
+}
+.btnn{
+  background-color: rgb(209, 153, 79);
+  color: white;
+  position: relative;
+  top: 3px;
+
+}
+.btnn1{
+  margin-left:30px;
+}
+.btnn:hover{
+  background-color: violet;
+}
+.bighead{
+  margin-top:65px;
+  font-size:52px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pbighead{
+  margin-top:30px;
+}
+.btn-bighead{
+  color: white;
+  border:none;
+  padding:15px;
+  border-radius:6px;
+  background-color: rgb(243, 165, 109);
+  width:180px;
+  font-weight: 700;
+}
+.rounded-arrow{
+  width:80px;
+  height:80px;
+  background: linear-gradient(rgb(181, 112, 224) 30%,rgb(237, 132, 237));
+  border-radius:180px;
+}
+.playbuttonimg{
+  display: flex;
+  justify-content: center;
+}
+.playbuttonimg img{
+  width:70px;
+  height:70px;
+}
+.cbtn{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.btnprimary{
+  border: 1px solid orange;
+  text-align: center;
+  padding:20px;
+  width:260px;
+  color:black;
+}
+.btnprimary:hover{
+    background-color:rgb(232, 192, 117);
+    color: white;
+}
+.designimg1{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.designimg2{
+  display: flex;
+  justify-content:start;
+  align-items: center;
+}
+.designimg{
+  width:300px;
+}
+.designimg22{
+  height:300px;
+  width:300px;
+}
+.designimgp {
+  position: relative;
+  top:80px;
+}
+.designimg2t{
+  position: relative;
+  top:30px;
+}
+.btn2{
+  border: none;
+  text-align: center;
+  background-color:rgb(232, 192, 117);
+  padding:20px;
+  width:230px;
+  margin-left:25px;
+  color:black;
+  border-radius: 10px;
+}
+.btn2:hover{
+   background-color:rgb(221, 9, 232);
+    color: white;
+}
+.designimg2t >h2{
+  color: rgb(161, 7, 239);
+  padding:1px;
+}
+footer{
+  background-color:rgb(126, 67, 236);
+  padding:10px;
+  margin: 10px;
+}
+.f-ul li{
+  list-style-type:none;
+  padding:5px;
+  color: white;
+  text-decoration: none;
+}
+ /*-------------------------------------------------------------------------------------------*/
+.cards-wrapper{
+  display: flex;
+}
+.cards{
+  margin: 0.5em;
+  width: calc(100%/3);
+}
+.image-wrapper{
+  height:14vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ulnav li{
+  margin-left: 60px;
+}
+.star{
+  color: orangered;
+  font-size:15px;
+
+}
+.star span{
+  font-size:15px;
+}
+.dollar{
+  color: blue;
+  font-size: 25px;
+  font-weight: 700;
+  font-style: normal;
+}
+.findout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+} 
+.findout a{
+  text-align: center;
+  text-decoration: none;
+  width:280px;
+  height: 60px;
+  border-radius: 8px;
+}
+.blutext{
+  color: rgb(69, 69, 214);
+}
